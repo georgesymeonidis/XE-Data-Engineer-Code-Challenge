@@ -6,7 +6,7 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+When a customer creates a classified, the system emit a record of it and publish it to a Kafka topic. For that reason we created an application that consumes these records, record them in a MySQL database and write a SQL script to analyse this information. In
 	
 ## Technologies
 Project is created with:
@@ -18,7 +18,5 @@ Project is created with:
 To run this project, install it locally using npm:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ python Data_Engineer_Code_Challenge.py
 ```
